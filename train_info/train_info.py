@@ -8,6 +8,7 @@ import os
 
 # 京王線と都営新宿線の運行情報をスクレイピングして平日毎朝Slackに通知を投げる
 # pyInstallerで実行ファイルを作成し、タスクスケジューラで実行(月・水→6:30～, 火・木・金→8:30～ 15分ごとに4回実行)することを想定
+# cronによる定期実行 → そのうち対応
 
 # このファイルと同じディレクトリに api_url.txt を置き、Slack Incoming WebhooksのURLを記述する
 target_path = os.path.join(os.path.dirname(__file__), 'api_url.txt')
