@@ -1,5 +1,5 @@
-# 電車の遅延を知らせるSlack Bot (自分用)
-### about
+# 電車の遅延を知らせるSlack Bot (自分用)  
+### about  
 毎朝、京王線と都営新宿線の運行状況を、webページ上からスクレイピングし、
 Slackにポストします。  
 pyInstallerを用いて.exeファイルとし、Windowsのタスクスケジューラで定期実行することを想定しています。  
@@ -9,12 +9,13 @@ pyInstallerを用いて.exeファイルとし、Windowsのタスクスケジュ�
 Botが正常に動作していることを確認するため、平常通りでも毎日1回はその旨をポストします。  
 (月・火 → 7:00, 火・木・金 → 9:00)    
 ### 実行例  
-![example](https://user-images.githubusercontent.com/16556629/56778002-2ec56f80-680f-11e9-934e-a0d634754b83.PNG)   
-### 設定方法    
+![example](https://user-images.githubusercontent.com/16556629/56778002-2ec56f80-680f-11e9-934e-a0d634754b83.PNG)    
+### 設定方法  
  incoming-webhook を通じてSlackに投稿しますので、Webhook URLを設定する必要があります  
  URL は api_url.txt に記述してください  
  また、api_url.txt は実行するファイルと同じディレクトリにおいてください    
-### 開発環境  
-### 実行環境
+### 実行環境  
 Python 3.7.1  
-ライブラリについては requirements.txt をご参照ください。
+ライブラリについては requirements.txt をご参照ください。    
+### 開発環境  
+PyCharm Professional 2019.1.1
