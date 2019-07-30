@@ -4,6 +4,11 @@
 ## train_info  
 電車の遅延を通知するSlack Bot    
 ## vocal_extract  
-ボーカル入りの楽曲とそのカラオケ音源からボーカル部分のみを抽出するプログラム
+ボーカル入りの楽曲とそのカラオケ音源からボーカル部分のみを抽出するプログラム    
 ## robe_cpp  
-[『ロベールのＣ＋＋教室』](http://www7b.biglobe.ne.jp/~robe/cpphtml/)の演習用
+[『ロベールのＣ＋＋教室』](http://www7b.biglobe.ne.jp/~robe/cpphtml/)の演習用    
+## algorithms  
+未着手    
+## calculus  
+未着手
+
