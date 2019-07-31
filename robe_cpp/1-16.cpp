@@ -3,7 +3,7 @@
 //  practice
 //
 //  Created by Atsuya TSUDA on 2019/07/21.
-//  Copyright © 2019 Atsuya TSUDA. All rights reserved.
+//  
 //
 
 #include <iostream>
@@ -19,12 +19,12 @@ int n_results[] = {
 
 int main(){
     int n_sum = 0;
-    
+
     for(int i = 0; i < 40; i++){
         n_sum += n_results[i];
     }
-    
+
     cout << "｀クラスの平均点は " << n_sum / 40.0 << " 点です" << endl;
-    
+
     return 0;
 }

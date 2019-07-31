@@ -3,7 +3,7 @@
 //  practice
 //
 //  Created by Atsuya TSUDA on 2019/07/21.
-//  Copyright © 2019 Atsuya TSUDA. All rights reserved.
+//  
 //
 
 #include <iostream>
@@ -20,12 +20,12 @@ void convert_to_heisei(int* p){
 
 void heisei(){
     int year;
-    
+
     cout << "西暦を入力してください: " << flush;
     cin >> year;
-    
+
     convert_to_heisei(&year);
-    
+
     switch (year) {
         case 0:
             cout << "その年は平成ではありません" << endl;
@@ -43,6 +43,6 @@ void heisei(){
 int main(){
     heisei();
     heisei();
-    
+
     return 0;
 }

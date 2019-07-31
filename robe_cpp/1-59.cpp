@@ -3,7 +3,7 @@
 //  practice
 //
 //  Created by Atsuya TSUDA on 2019/07/21.
-//  Copyright © 2019 Atsuya TSUDA. All rights reserved.
+//  
 //
 
 #include <stdio.h>
@@ -33,12 +33,10 @@ int main(){
         {"user_2", 64, 45, 40},
         {"user_3", 76, 78, 69}
     };
-    
+
     for(int i = 0; i < ELEM(students); i++){
         disp(students[i]);
     }
-    
+
     return 0;
 }
-
-

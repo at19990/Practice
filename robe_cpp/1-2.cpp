@@ -3,7 +3,7 @@
 //  practice
 //
 //  Created by Atsuya TSUDA on 2019/07/21.
-//  Copyright © 2019 Atsuya TSUDA. All rights reserved.
+//  
 //
 
 #include <iostream>
