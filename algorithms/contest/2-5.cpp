@@ -2,7 +2,7 @@
 //  2-5.cpp
 //  contest
 //
-//  Created by Atsuya TSUDA on 2019/08/01.
+//  Created by at19990 on 2019/08/01.
 //
 
 #include <stdio.h>
