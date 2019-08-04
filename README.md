@@ -8,7 +8,7 @@
 ## robe_cpp  
 [『ロベールのＣ＋＋教室』](http://www7b.biglobe.ne.jp/~robe/cpphtml/)の演習用    
 ## algorithms  
-未着手    
+アルゴリズム関連の演習用    
 ## calculus  
 未着手
 
