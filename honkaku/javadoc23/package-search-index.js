@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.practice.java23"},{"l":"すべてのパッケージ","url":"allpackages-index.html"}]
